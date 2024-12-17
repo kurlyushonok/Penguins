@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{79ba9417-00e1-7366-cb96-7b6a0ba6c1de}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{68987ad5-dd66-ab9a-f556-2c28c959cef8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MacBLAS", "MacBLAS.csproj", "{13c04711-4df0-46ff-8324-38be93ae1a21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iOSBLAS", "iOSBLAS.csproj", "{561bc347-1f00-b1c4-90eb-f1cc345ef9f9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barracuda-editor", "Barracuda-editor.csproj", "{27489394-78dc-d686-db48-d94ab84320c1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79ba9417-00e1-7366-cb96-7b6a0ba6c1de}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79ba9417-00e1-7366-cb96-7b6a0ba6c1de}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68987ad5-dd66-ab9a-f556-2c28c959cef8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68987ad5-dd66-ab9a-f556-2c28c959cef8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13c04711-4df0-46ff-8324-38be93ae1a21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13c04711-4df0-46ff-8324-38be93ae1a21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{561bc347-1f00-b1c4-90eb-f1cc345ef9f9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{561bc347-1f00-b1c4-90eb-f1cc345ef9f9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27489394-78dc-d686-db48-d94ab84320c1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27489394-78dc-d686-db48-d94ab84320c1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
