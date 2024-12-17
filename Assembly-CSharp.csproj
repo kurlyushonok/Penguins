@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{79ba9417-00e1-7366-cb96-7b6a0ba6c1de}</ProjectGuid>
+    <ProjectGuid>{e1138525-b234-c7d0-bdcf-84b1db9ab656}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -62,8 +62,8 @@
     <Compile Include="Assets\ML-Agents\Scripts\InferenceBrain\TFSharpInferenceEngine.cs" />
     <Compile Include="Assets\ML-Agents\Scripts\UnityAgentsException.cs" />
     <Compile Include="Assets\Scripts\PenguinAcademy.cs" />
-    <Compile Include="Assets\ML-Agents\Scripts\InferenceBrain\BarracudaModelParamLoader.cs" />
     <Compile Include="Assets\ML-Agents\Examples\Walker\Scripts\WalkerAgent.cs" />
+    <Compile Include="Assets\ML-Agents\Scripts\InferenceBrain\BarracudaModelParamLoader.cs" />
     <Compile Include="Assets\ML-Agents\Examples\Basic\Scripts\BasicAgent.cs" />
     <Compile Include="Assets\ML-Agents\Examples\SharedAssets\Scripts\GroundContact.cs" />
     <Compile Include="Assets\ML-Agents\Scripts\CommunicatorObjects\UnityInput.cs" />
@@ -78,8 +78,8 @@
     <Compile Include="Assets\ML-Agents\Examples\Bouncer\Scripts\BouncerAcademy.cs" />
     <Compile Include="Assets\Scripts\PenguinAgent.cs" />
     <Compile Include="Assets\ML-Agents\Examples\Soccer\Scripts\SoccerAcademy.cs" />
-    <Compile Include="Assets\ML-Agents\Scripts\CommunicatorObjects\DemonstrationMetaProto.cs" />
     <Compile Include="Assets\ML-Agents\Scripts\CommunicatorObjects\UnityMessage.cs" />
+    <Compile Include="Assets\ML-Agents\Scripts\CommunicatorObjects\DemonstrationMetaProto.cs" />
     <Compile Include="Assets\ML-Agents\Scripts\InferenceBrain\ApplierImpl.cs" />
     <Compile Include="Assets\ML-Agents\Examples\GridWorld\Scripts\GridAgent.cs" />
     <Compile Include="Assets\ML-Agents\Scripts\DemonstrationStore.cs" />
@@ -90,8 +90,8 @@
     <Compile Include="Assets\ML-Agents\Examples\SharedAssets\Scripts\RayPerception.cs" />
     <Compile Include="Assets\ML-Agents\Scripts\InferenceBrain\Utils\Multinomial.cs" />
     <Compile Include="Assets\ML-Agents\Scripts\InferenceBrain\TensorGenerator.cs" />
-    <Compile Include="Assets\ML-Agents\Scripts\ResetParameters.cs" />
     <Compile Include="Assets\ML-Agents\Scripts\Batcher.cs" />
+    <Compile Include="Assets\ML-Agents\Scripts\ResetParameters.cs" />
     <Compile Include="Assets\ML-Agents\Scripts\CommunicatorObjects\UnityToExternal.cs" />
     <Compile Include="Assets\ML-Agents\Examples\Soccer\Scripts\AgentSoccer.cs" />
     <Compile Include="Assets\ML-Agents\Scripts\ActionMasker.cs" />
@@ -105,8 +105,8 @@
     <Compile Include="Assets\ML-Agents\Scripts\InferenceBrain\GeneratorImpl.cs" />
     <Compile Include="Assets\ML-Agents\Examples\Bouncer\Scripts\BouncerBanana.cs" />
     <Compile Include="Assets\ML-Agents\Examples\SharedAssets\Scripts\TargetContact.cs" />
-    <Compile Include="Assets\ML-Agents\Examples\Reacher\Scripts\ReacherAgent.cs" />
     <Compile Include="Assets\ML-Agents\Examples\Reacher\Scripts\ReacherGoal.cs" />
+    <Compile Include="Assets\ML-Agents\Examples\Reacher\Scripts\ReacherAgent.cs" />
     <Compile Include="Assets\ML-Agents\Examples\Tennis\Scripts\TennisAcademy.cs" />
     <Compile Include="Assets\ML-Agents\Scripts\CommunicatorObjects\CustomResetParameters.cs" />
     <Compile Include="Assets\ML-Agents\Examples\Crawler\Scripts\CrawlerAcademy.cs" />
@@ -425,29 +425,29 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.17f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
+    <Reference Include="System.IO.Abstractions">
+      <HintPath>C:\Penguins\Assets\ML-Agents\Plugins\System.IO.Abstractions.dll</HintPath>
+    </Reference>
     <Reference Include="ReportGeneratorMerged">
-      <HintPath>C:\Pinguins\Library\PackageCache\com.unity.testtools.codecoverage@1.2.4\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>C:\Pinguins\Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Barracuda">
-      <HintPath>C:\Pinguins\Assets\ML-Agents\Plugins\Barracuda.Core\Barracuda\Barracuda.dll</HintPath>
+      <HintPath>C:\Penguins\Library\PackageCache\com.unity.testtools.codecoverage@1.2.4\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
     <Reference Include="System.Interactive.Async">
-      <HintPath>C:\Pinguins\Assets\ML-Agents\Plugins\ProtoBuffer\System.Interactive.Async.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.Abstractions.TestingHelpers">
-      <HintPath>C:\Pinguins\Assets\ML-Agents\Plugins\System.IO.Abstractions.TestingHelpers.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.Abstractions">
-      <HintPath>C:\Pinguins\Assets\ML-Agents\Plugins\System.IO.Abstractions.dll</HintPath>
-    </Reference>
-    <Reference Include="Grpc.Core">
-      <HintPath>C:\Pinguins\Assets\ML-Agents\Plugins\ProtoBuffer\Grpc.Core.dll</HintPath>
+      <HintPath>C:\Penguins\Assets\ML-Agents\Plugins\ProtoBuffer\System.Interactive.Async.dll</HintPath>
     </Reference>
     <Reference Include="Google.Protobuf">
-      <HintPath>C:\Pinguins\Assets\ML-Agents\Plugins\ProtoBuffer\Google.Protobuf.dll</HintPath>
+      <HintPath>C:\Penguins\Assets\ML-Agents\Plugins\ProtoBuffer\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+      <HintPath>C:\Penguins\Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Grpc.Core">
+      <HintPath>C:\Penguins\Assets\ML-Agents\Plugins\ProtoBuffer\Grpc.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Abstractions.TestingHelpers">
+      <HintPath>C:\Penguins\Assets\ML-Agents\Plugins\System.IO.Abstractions.TestingHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Barracuda">
+      <HintPath>C:\Penguins\Assets\ML-Agents\Plugins\Barracuda.Core\Barracuda\Barracuda.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.17f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
@@ -816,86 +816,86 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.17f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:\Pinguins\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+      <HintPath>C:\Penguins\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-      <HintPath>C:\Pinguins\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+      <HintPath>C:\Penguins\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:\Pinguins\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+      <HintPath>C:\Penguins\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
-      <HintPath>C:\Pinguins\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+      <HintPath>C:\Penguins\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-      <HintPath>C:\Pinguins\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+      <HintPath>C:\Penguins\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-      <HintPath>C:\Pinguins\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+      <HintPath>C:\Penguins\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-      <HintPath>C:\Pinguins\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+      <HintPath>C:\Penguins\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-      <HintPath>C:\Pinguins\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+      <HintPath>C:\Penguins\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>C:\Pinguins\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+      <HintPath>C:\Penguins\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
-      <HintPath>C:\Pinguins\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+      <HintPath>C:\Penguins\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:\Pinguins\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:\Penguins\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
-      <HintPath>C:\Pinguins\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+      <HintPath>C:\Penguins\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-      <HintPath>C:\Pinguins\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+      <HintPath>C:\Penguins\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:\Pinguins\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:\Penguins\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
-      <HintPath>C:\Pinguins\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+      <HintPath>C:\Penguins\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:\Pinguins\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:\Penguins\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:\Pinguins\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+      <HintPath>C:\Penguins\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
-      <HintPath>C:\Pinguins\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+      <HintPath>C:\Penguins\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:\Pinguins\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:\Penguins\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
-      <HintPath>C:\Pinguins\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+      <HintPath>C:\Penguins\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:\Pinguins\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:\Penguins\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
-      <HintPath>C:\Pinguins\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+      <HintPath>C:\Penguins\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
-      <HintPath>C:\Pinguins\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+      <HintPath>C:\Penguins\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Barracuda-editor.csproj">
-      <Project>{27489394-78dc-d686-db48-d94ab84320c1}</Project>
+      <Project>{cd191422-761b-cc5b-7832-3a89f990c8ba}</Project>
       <Name>Barracuda-editor</Name>
     </ProjectReference>
     <ProjectReference Include="iOSBLAS.csproj">
-      <Project>{561bc347-1f00-b1c4-90eb-f1cc345ef9f9}</Project>
+      <Project>{665e1a35-7f64-d6ac-56b0-927e02f54e64}</Project>
       <Name>iOSBLAS</Name>
     </ProjectReference>
     <ProjectReference Include="MacBLAS.csproj">
-      <Project>{13c04711-4df0-46ff-8324-38be93ae1a21}</Project>
+      <Project>{bced47c9-6bf6-c6eb-f76f-cbfaa0a2911e}</Project>
       <Name>MacBLAS</Name>
     </ProjectReference>
   </ItemGroup>
